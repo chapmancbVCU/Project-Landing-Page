@@ -68,6 +68,11 @@ h1 {
 .info {
     display: flex;
 
+    /* Set flex settings */
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
 }
 
 .left-section {
