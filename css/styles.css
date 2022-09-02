@@ -29,6 +29,11 @@ body {
 }
 
 header {
+    /* Setup padding. */
+    padding-left: 50px;
+    padding-right: 50px;
+
+    /* Setup flex. */
     display: flex;
     flex-direction: column;
 }
