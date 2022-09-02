@@ -33,8 +33,6 @@ header {
 }
 
 main {
-    background-color: green;
-
     /* Setting up flex for main section. */
     display: flex;
     flex-direction: column;
