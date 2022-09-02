@@ -73,10 +73,15 @@ footer {
 }
 
 h4 {
+    color: #E5E7Eb;
+    font-size: 16px;
+
     /* Setup display flex. */
     display: flex;
+    
     /* Center text vertically */
     align-items: center;
+    
     /* Adjust margins so text is in center. */
     margin-left: auto;
     margin-right: auto;
