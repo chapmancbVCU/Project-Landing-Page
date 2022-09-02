@@ -29,9 +29,15 @@ body {
 }
 
 header {
-
+    display: flex;
+    flex-direction: column;
 }
 
+/* For title and links. */
+.header-items {
+    display: flex;
+    flex-direction: row;
+}
 /* Settings for page title in header element. */
 h1 {
     font-size: 24px;
