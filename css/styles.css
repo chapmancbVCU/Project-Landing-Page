@@ -17,7 +17,15 @@ body {
 }
 
 .content-area {
-    max-width: 600px;
+    /* Set max-width of content area. */
+    max-width: 1000px;
+    /* We want to senter the content area */
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Setting up flex */
+    display: flex;
+    flex-direction: column;
 }
 
 header {
