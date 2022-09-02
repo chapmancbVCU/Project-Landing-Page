@@ -38,10 +38,23 @@ header {
     display: flex;
     flex-direction: row;
 }
+
+.title {
+    display: flex;
+    margin-right: auto;
+}
+
 /* Settings for page title in header element. */
 h1 {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+.links {
+    display: flex;
+    margin-left: auto;
+    /* Removes dots on list items. */
+    list-style-type: none;
 }
 
 main {
