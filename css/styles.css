@@ -6,7 +6,7 @@
 ******************************************************************************/
 
 /******************************************************************************
-Classes and selectors as encountered in order throughout the page.
+Classes and element selectors as encountered in order throughout the page.
 ******************************************************************************/
 body {
     font-family: Tahoma, Verdana, Arial, sans-serif;
@@ -29,7 +29,7 @@ body {
 }
 
 header {
-    background-color: red;
+
 }
 
 main {
@@ -41,5 +41,13 @@ main {
 }
 
 footer {
-    background-color: blue;
+    
+}
+
+
+/******************************************************************************
+Selectors for additional elements and classes.
+******************************************************************************/
+.hero-and-footer {
+    background-color: #1f2937;
 }
