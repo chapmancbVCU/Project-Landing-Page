@@ -32,6 +32,11 @@ header {
 
 }
 
+h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
 main {
     /* Setting up flex for main section. */
     display: flex;
