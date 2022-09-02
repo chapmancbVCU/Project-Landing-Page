@@ -73,6 +73,9 @@ h1 {
 .left-section {
     height: 300px;
     width: 350px;
+    border: solid;
+    border-radius: 25px;
+    border-color: burlywood;
 }
 
 .hero-secondary-text {
