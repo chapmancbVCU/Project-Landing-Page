@@ -75,6 +75,11 @@ h1 {
     width: 350px;
 }
 
+.hero-secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .right-section {
     height: 300px;
     width: 350px;
