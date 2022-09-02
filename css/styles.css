@@ -67,14 +67,17 @@ h1 {
 
 .info {
     display: flex;
+
 }
 
-.left {
-    
+.left-section {
+    height: 300px;
+    width: 350px;
 }
 
-.right {
-
+.right-section {
+    height: 300px;
+    width: 350px;
 }
 main {
     /* Setting up flex for main section. */
