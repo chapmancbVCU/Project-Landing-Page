@@ -65,10 +65,21 @@ h1 {
     list-style-type: none;
 }
 
+.info {
+    display: flex;
+}
+
+.left {
+    
+}
+
+.right {
+
+}
 main {
     /* Setting up flex for main section. */
     display: flex;
-    
+
     /* We want all child elements in a column. */
     flex-direction: column;
 }
