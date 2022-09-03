@@ -66,6 +66,7 @@ h1 {
 }
 
 .info {
+    padding: 40px 0 80px 0;
     display: flex;
 
     /* Set flex settings */
@@ -74,7 +75,7 @@ h1 {
     column-gap: 10px;
     row-gap: 10px;
 
-    /* Set center and vertical alignment. */
+    /* Set horizontal and vertical alignment. */
     align-items: center;
     justify-content: center;
 }
