@@ -124,6 +124,12 @@ main {
     flex-direction: column;
 }
 
+/* Describes div for the section one header. */
+.section-one-header {
+    display: flex;
+}
+
+/* Describes div that contains row of of images and its information. */
 .section-one-elements {
     display: flex;
     
@@ -133,6 +139,8 @@ main {
 
 /* Class for formatting images and associated captions. */
 .img-and-info {
+    width: 200px;
+    height: 200px;
     display: flex;
 
     /* We want each set of one image and its description arranged in a column. */
@@ -165,6 +173,7 @@ footer {
     display: flex;  
 }
 
+/* We use this for the footer text. */
 h4 {
     color: #E5E7Eb;
     font-size: 16px;
