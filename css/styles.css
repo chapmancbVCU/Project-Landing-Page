@@ -117,21 +117,25 @@ main {
     flex-direction: column;
 }
 
+/* First div in main section. */
 .section-one {
     background-color: white;
     display: flex;
     flex-direction: column;
 }
 
+/* Class for formatting images and associated captions. */
 .img-and-info {
     display: flex;
 }
 
+/* Second div in main section. */
 .section-two {
     background-color: #E5E7EB;
     display: flex;
 }
 
+/* Third div in main section. */
 .section-three {
     background-color: white;
     display: flex;
