@@ -8,6 +8,8 @@
 /******************************************************************************
 Classes and element selectors as encountered in order throughout the page.
 ******************************************************************************/
+
+/* Sets overall theme for the page.  Background image is also set here. */
 body {
     font-family: Tahoma, Verdana, Arial, sans-serif;
 
@@ -17,6 +19,7 @@ body {
     color: black;
 }
 
+/* Main content area that appears in front of background image. */
 .content-area {
     /* Set max-width of content area. */
     max-width: 1000px;
@@ -30,6 +33,7 @@ body {
     flex-direction: column;
 }
 
+/* Setup formatting for header section. */
 header {
     /* Setup padding. */
     padding-left: 50px;
@@ -46,6 +50,7 @@ header {
     flex-direction: row;
 }
 
+/* Set formatting of title seen on top left of page. */
 .title {
     display: flex;
     margin-right: auto;
@@ -57,6 +62,7 @@ h1 {
     color: #F9FAF8;
 }
 
+/* Formatting for links at top right corner of page. */
 .links {
     column-gap: 1em;
     display: flex;
@@ -66,6 +72,7 @@ h1 {
     list-style-type: none;
 }
 
+/* Describes section that contains the main left and right content sections. */
 .info {
     padding: 40px 0 80px 0;
     display: flex;
@@ -81,6 +88,7 @@ h1 {
     justify-content: center;
 }
 
+/* Describes the left section of the information area. */
 .left-section {
     height: 300px;
     width: 438px;
@@ -90,25 +98,31 @@ h1 {
     flex-direction: column;
 }
 
+/* Describes the main text of the left section of the div with 
+    the info class. */
 .hero-main-text {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 800;
 
-    /* Set margin to reduce space between this class and hero-secondary-text class. */
+    /* Set margin to reduce space between this class and 
+        hero-secondary-text class. */
     margin-bottom: 0;
 }
 
+/* Describes the smaller text of the left-section. */
 .hero-secondary-text {
     font-size: 18px;
     color: #E5E7EB;
 }
 
+/* Describes the right section of the information area. */
 .right-section {
     height: 300px;
     width: 438px;
 }
 
+/* Main section that contains 3 content areas. */
 main {
     /* Setting up flex for main section. */
     display: flex;
