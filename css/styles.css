@@ -126,11 +126,17 @@ main {
 
 .section-one-elements {
     display: flex;
-    flex: row;
+    
+    /* We want elements that contain images and info to be aligned in a row. */
+    flex-direction: row;
 }
+
 /* Class for formatting images and associated captions. */
 .img-and-info {
     display: flex;
+
+    /* We want each set of one image and its description arranged in a column. */
+    flex-direction: column;
 }
 
 /* Class for formatting the small images in this section. */
