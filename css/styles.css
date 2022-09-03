@@ -135,8 +135,9 @@ main {
     background-color: white;
     display: flex;
     flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 10px;
 }
 
 /* Describes div for the section one header. */
@@ -162,13 +163,13 @@ main {
 
     /* Set row and column gaps. */
     row-gap: 10px;
-    column-gap: 10px;
+    column-gap: 15px;
 }
 
 /* Class for formatting images and associated captions. */
 .img-and-info {
-    width: 200px;
-    height: 200px;
+    width: 233px;
+    height: 300px;
     border-style: solid;    /* Temp border */
 
     display: flex;
