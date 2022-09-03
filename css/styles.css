@@ -117,6 +117,18 @@ main {
     flex-direction: column;
 }
 
+.section-one {
+    display: flex;
+}
+
+.section-two {
+    display: flex;
+}
+
+.section-three {
+    display: flex;
+}
+
 footer {
     display: flex;  
 }
