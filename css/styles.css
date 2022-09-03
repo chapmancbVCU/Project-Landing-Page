@@ -73,6 +73,10 @@ h1 {
     flex-wrap: wrap;
     column-gap: 10px;
     row-gap: 10px;
+
+    /* Set center and vertical alignment. */
+    align-items: center;
+    justify-content: center;
 }
 
 .left-section {
@@ -83,6 +87,8 @@ h1 {
     border: solid;
     border-radius: 25px;
     border-color: burlywood;
+    
+  
 }
 
 .hero-secondary-text {
