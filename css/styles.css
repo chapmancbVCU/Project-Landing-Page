@@ -58,6 +58,7 @@ h1 {
 }
 
 .links {
+    column-gap: 1em;
     display: flex;
     margin-left: auto;
 
