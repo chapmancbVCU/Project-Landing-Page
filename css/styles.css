@@ -129,6 +129,16 @@ main {
     display: flex;
 }
 
+/* Class for formatting the small images in this section. */
+.section-one-image {
+
+}
+
+/* Class for formatting text below images. */
+.section-one-text {
+
+}
+
 /* Second div in main section. */
 .section-two {
     background-color: #E5E7EB;
