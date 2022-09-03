@@ -85,11 +85,6 @@ h1 {
     height: 300px;
     width: 438px;
 
-    /* Set border settings. */
-    border: solid;
-    border-radius: 25px;
-    border-color: burlywood;
-
     /* Set display flex and settings. */
     display: flex;
     flex-direction: column;
@@ -112,11 +107,6 @@ h1 {
 .right-section {
     height: 300px;
     width: 438px;
-
-    /* Set border settings. */
-    border: solid;
-    border-radius: 25px;
-    border-color: burlywood;
 }
 
 main {
