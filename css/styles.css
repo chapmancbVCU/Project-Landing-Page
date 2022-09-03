@@ -121,6 +121,10 @@ main {
     display: flex;
 }
 
+.img-and-info {
+    display: flex;
+}
+
 .section-two {
     display: flex;
 }
