@@ -93,6 +93,12 @@ h1 {
   
 }
 
+.hero-main-text {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
 .hero-secondary-text {
     font-size: 18px;
     color: #E5E7EB;
@@ -139,4 +145,8 @@ Selectors for additional elements and classes.
 ******************************************************************************/
 .hero-and-footer {
     background-color: #1f2937;
+}
+
+a:link {
+    color: #E5E7EB;
 }
