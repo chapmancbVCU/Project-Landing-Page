@@ -89,8 +89,10 @@ h1 {
     border: solid;
     border-radius: 25px;
     border-color: burlywood;
-    
-  
+
+    /* Set display flex and settings. */
+    display: flex;
+    flex-direction: column;
 }
 
 .hero-main-text {
@@ -113,6 +115,7 @@ h1 {
     border-radius: 25px;
     border-color: burlywood;
 }
+
 main {
     /* Setting up flex for main section. */
     display: flex;
