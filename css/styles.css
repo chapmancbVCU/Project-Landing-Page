@@ -143,6 +143,12 @@ Selectors for additional elements and classes.
     background-color: #1f2937;
 }
 
+/* Set color of unvisited link. */
 a:link {
     color: #E5E7EB;
+}
+
+/* Set color of visited link. */
+a:visited {
+    color: #E5E7EB; 
 }
