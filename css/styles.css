@@ -98,8 +98,7 @@ h1 {
     flex-direction: column;
 }
 
-/* Describes the main text of the left section of the div with 
-    the info class. */
+/* Describes the main text of the left section of the div. */
 .hero-main-text {
     font-size: 48px;
     color: #F9FAF8;
@@ -155,6 +154,8 @@ main {
 .img-and-info {
     width: 200px;
     height: 200px;
+    border-style: solid;
+
     display: flex;
 
     /* We want each set of one image and its description arranged in a column. */
