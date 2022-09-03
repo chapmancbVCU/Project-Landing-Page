@@ -118,6 +118,7 @@ main {
 }
 
 .section-one {
+    background-color: white;
     display: flex;
 }
 
@@ -126,10 +127,12 @@ main {
 }
 
 .section-two {
+    background-color: #E5E7EB;
     display: flex;
 }
 
 .section-three {
+    background-color: white;
     display: flex;
 }
 
