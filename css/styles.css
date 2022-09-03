@@ -135,11 +135,20 @@ main {
     background-color: white;
     display: flex;
     flex-direction: column;
+    
 }
 
 /* Describes div for the section one header. */
 .section-one-header {
+    font-size: 36px;
+    font-weight: 800;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #1F2937;
     display: flex;
+    
+    /* Set horizontal and vertical alignment. */
+    justify-content: center;
 }
 
 /* Describes div that contains row of of images and its information. */
@@ -148,13 +157,18 @@ main {
     
     /* We want elements that contain images and info to be aligned in a row. */
     flex-direction: row;
+    flex: wrap;
+
+    /* Set row and column gaps. */
+    row-gap: 10px;
+    column-gap: 10px;
 }
 
 /* Class for formatting images and associated captions. */
 .img-and-info {
     width: 200px;
     height: 200px;
-    border-style: solid;
+    border-style: solid;    /* Temp border */
 
     display: flex;
 
