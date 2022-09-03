@@ -124,6 +124,10 @@ main {
     flex-direction: column;
 }
 
+.section-one-elements {
+    display: flex;
+    flex: row;
+}
 /* Class for formatting images and associated captions. */
 .img-and-info {
     display: flex;
