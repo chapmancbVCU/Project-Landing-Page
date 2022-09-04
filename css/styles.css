@@ -158,11 +158,12 @@ main {
     margin-right: 10px;
     /* We want elements that contain images and info to be aligned in a row. */
     flex-direction: row;
-    flex: wrap;
+    flex-wrap: wrap;
 
     /* Set row and column gaps. */
     row-gap: 10px;
     column-gap: 16px;
+    
 }
 
 /* Class for formatting images and associated captions. */
@@ -307,6 +308,8 @@ button {
     border-color: #E5E7EB;
     border-style: solid;
     border-radius: 5px;
+
+    color: white;
     width: 100px;
     padding: 10px;
 
