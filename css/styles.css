@@ -179,6 +179,7 @@ img {
     border-style: solid;
     border-color: blue;
     border-radius: 5px;;
+   
     /* Set some properties to img to make it fit properly. */
     height: 165px;
 }
@@ -204,7 +205,11 @@ img {
 
 /* Selector for quotes-section class. */
 .quotes-section {
+    padding-bottom: 20px;
+    
+    /* set flex properties */
     display: flex;
+    flex-direction: column;
 }
 
 /* Selector for quotes class. */
