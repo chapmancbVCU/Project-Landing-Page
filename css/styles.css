@@ -178,12 +178,20 @@ main {
     flex-direction: column;
 }
 
+/* Selector for img element. */
 img {
+    /* Set some properties to img to make it fit properly. */
     height: 165px;
-    padding: 15px;
+    padding: 15px 15px 0 15px;;
 }
 
-
+/* Selector for p element. */
+p {
+    /* Make paragraph same width as img to make it fig properly. */
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+}
 
 /* Second div in main section. */
 .section-two {
