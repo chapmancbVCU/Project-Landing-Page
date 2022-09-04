@@ -198,7 +198,11 @@ img {
 /* Second div in main section. */
 .section-two {
     background-color: #E5E7EB;
-    
+
+    /* Adding padding-bottom to increase space between this section and 
+        section-three. */
+    padding-bottom: 40px;
+
     /*We want padding so text does not take up entire area. */
     padding-left: 50px;
     padding-right: 50px;
@@ -206,7 +210,6 @@ img {
     /* Set flex properties. */
     display: flex;
     flex-direction: column;
-
 }
 
 /* Selector for quotes-section class. */
