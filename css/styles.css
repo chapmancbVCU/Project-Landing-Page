@@ -250,6 +250,17 @@ img {
 /* Class selector for information box in section-three. */
 .info-box {
     background-color: #3882F6;
+    
+    /* Setup margins so it appears as box in section-three. */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    /* Setup border. */
+    border-radius: 5px;
+
+    /* Setup flex and its properties. */
     display: flex;
 
     /* Set vertical alignment. */
