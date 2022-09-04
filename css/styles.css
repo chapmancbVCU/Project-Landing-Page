@@ -271,6 +271,11 @@ img {
 .info-box-text {
     display: flex;
     flex-direction: column;
+
+    /* Set spacing and alignment. */
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-right: auto;
 }
 
 footer {
