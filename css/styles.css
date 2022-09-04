@@ -220,7 +220,13 @@ img {
 
 /* Selector for quotes class. */
 .quote {
+    /* Font settings. */
+    font-size: 36px;
 
+    /* Set light font weight. */
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
 }
 
 /* selector for character class. */
