@@ -232,6 +232,8 @@ img {
 
 /* selector for character class. */
 .character {
+    font-size: 25px;
+    font-weight: bold;
     margin-top: 0;
     /* We want quotes to appear on the right. */
     text-align: right;
