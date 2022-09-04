@@ -183,11 +183,13 @@ img {
     height: 165px;
 }
 
-/* Selector for p element. */
-p {
+/* Selector for img-caption class. */
+.img-caption {
     /* Make paragraph same width as img to make it fig properly. */
     padding-left: 15px;
     padding-right: 15px;
+
+    /* We want text to be center aligned. */
     text-align: center;
 }
 
