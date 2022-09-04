@@ -280,10 +280,15 @@ img {
 
 /* Settings and formatting for Sign Up button. */
 .info-button {
-    /* We want the button to be centered horizontally in parent container. */
+    /* We want to set width of container with button. */
     width: 100px;
 }
 
+button {
+    /* Make sure button is centered by setting side margins. */
+    margin-left: auto;
+    margin-right: auto;
+}
 footer {
     display: flex;  
 }
