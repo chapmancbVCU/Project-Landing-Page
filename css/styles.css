@@ -178,6 +178,10 @@ main {
     flex-direction: column;
 }
 
+img {
+    height: 165px;
+    padding: 15px;
+}
 /* Class for formatting the small images in this section. */
 .section-one-image {
 
