@@ -196,9 +196,26 @@ img {
 /* Second div in main section. */
 .section-two {
     background-color: #E5E7EB;
+    
+    /* Set flex properties. */
+    display: flex;
+    flex-direction: column;
+}
+
+/* Selector for quotes-section class. */
+.quotes-section {
     display: flex;
 }
 
+/* Selector for quotes class. */
+.quote {
+
+}
+
+/* selector for character class. */
+.character {
+
+}
 /* Third div in main section. */
 .section-three {
     background-color: white;
