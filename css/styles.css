@@ -282,11 +282,12 @@ img {
 /* Selector for section-three-text class. */
 .section-three-text {
 
+    font-size: 25px;
 }
 
 /* Selector for section-three-subtext class. */
 .section-three-subtext {
-
+    font-size: 20px;
 }
 
 /* Settings and formatting for Sign Up button. */
