@@ -136,8 +136,7 @@ main {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    column-gap: 10px;
-    row-gap: 10px;
+    
 }
 
 /* Describes div for the section one header. */
@@ -163,7 +162,7 @@ main {
 
     /* Set row and column gaps. */
     row-gap: 10px;
-    column-gap: 15px;
+    column-gap: 20px;
 }
 
 /* Class for formatting images and associated captions. */
