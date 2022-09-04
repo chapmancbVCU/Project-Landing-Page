@@ -199,15 +199,20 @@ img {
 .section-two {
     background-color: #E5E7EB;
     
+    /*We want padding so text does not take up entire area. */
+    padding-left: 50px;
+    padding-right: 50px;
+
     /* Set flex properties. */
     display: flex;
     flex-direction: column;
+
 }
 
 /* Selector for quotes-section class. */
 .quotes-section {
     padding-bottom: 20px;
-
+    
     /* set flex properties */
     display: flex;
     flex-direction: column;
@@ -220,6 +225,7 @@ img {
 
 /* selector for character class. */
 .character {
+    /* We want quotes to appear on the right. */
     text-align: right;
 }
 /* Third div in main section. */
