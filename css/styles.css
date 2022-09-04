@@ -147,7 +147,7 @@ main {
     color: #1F2937;
     display: flex;
     
-    /* Set horizontal and vertical alignment. */
+    /* Set vertical alignment. */
     justify-content: center;
 }
 
@@ -240,12 +240,25 @@ img {
     /* We want quotes to appear on the right. */
     text-align: right;
 }
+
 /* Third div in main section. */
 .section-three {
     background-color: white;
     display: flex;
 }
 
+/* Class selector for information box in section-three. */
+.info-box {
+    background-color: #3882F6;
+    display: flex;
+
+    /* Set vertical alignment. */
+    align-items: center;
+}
+
+.info-box-text {
+    
+}
 footer {
     display: flex;  
 }
