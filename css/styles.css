@@ -272,11 +272,21 @@ img {
     display: flex;
     flex-direction: column;
     color: white;
-    
+
     /* Set spacing and alignment. */
     padding-left: 30px;
     padding-right: 30px;
     margin-right: auto;
+}
+
+/* Selector for section-three-text class. */
+.section-three-text {
+
+}
+
+/* Selector for section-three-subtext class. */
+.section-three-subtext {
+
 }
 
 /* Settings and formatting for Sign Up button. */
