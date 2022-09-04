@@ -211,8 +211,6 @@ img {
 
 /* Selector for quotes-section class. */
 .quotes-section {
-    padding-bottom: 20px;
-    
     /* set flex properties */
     display: flex;
     flex-direction: column;
@@ -235,6 +233,7 @@ img {
     font-size: 25px;
     font-weight: bold;
     margin-top: 0;
+    margin-bottom: 0;
     /* We want quotes to appear on the right. */
     text-align: right;
 }
