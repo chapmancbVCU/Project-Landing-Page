@@ -267,9 +267,12 @@ img {
     align-items: center;
 }
 
+/* Class selector for container that has text. */
 .info-box-text {
-    
+    display: flex;
+    flex-direction: column;
 }
+
 footer {
     display: flex;  
 }
