@@ -281,13 +281,18 @@ img {
 
 /* Selector for section-three-text class. */
 .section-three-text {
-
     font-size: 25px;
+
+    /* Make text sections appear close to each other. */
+    margin-bottom: 0;
 }
 
 /* Selector for section-three-subtext class. */
 .section-three-subtext {
-    font-size: 20px;
+    font-size: 15px;
+
+    /* Make text sections appear close to each other. */
+    margin-top: 0;
 }
 
 /* Settings and formatting for Sign Up button. */
