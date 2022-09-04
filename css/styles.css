@@ -154,14 +154,15 @@ main {
 /* Describes div that contains row of of images and its information. */
 .section-one-elements {
     display: flex;
-    
+    margin-left: 10px;
+    margin-right: 10px;
     /* We want elements that contain images and info to be aligned in a row. */
     flex-direction: row;
     flex: wrap;
 
     /* Set row and column gaps. */
     row-gap: 10px;
-    column-gap: 23px;
+    column-gap: 16px;
 }
 
 /* Class for formatting images and associated captions. */
@@ -206,7 +207,7 @@ img {
 /* Selector for quotes-section class. */
 .quotes-section {
     padding-bottom: 20px;
-    
+
     /* set flex properties */
     display: flex;
     flex-direction: column;
@@ -219,7 +220,7 @@ img {
 
 /* selector for character class. */
 .character {
-
+    text-align: right;
 }
 /* Third div in main section. */
 .section-three {
