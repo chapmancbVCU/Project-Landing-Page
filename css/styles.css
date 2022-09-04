@@ -220,6 +220,7 @@ img {
 
 /* Selector for quotes class. */
 .quote {
+    margin-bottom: 0;
     /* Font settings. */
     font-size: 36px;
 
@@ -231,6 +232,7 @@ img {
 
 /* selector for character class. */
 .character {
+    margin-top: 0;
     /* We want quotes to appear on the right. */
     text-align: right;
 }
