@@ -243,7 +243,7 @@ img {
 
 /* Third div in main section. */
 .section-three {
-    background-color: white;
+    background-color: #E5E7EB;
     display: flex;
 }
 
@@ -281,14 +281,23 @@ img {
 /* Settings and formatting for Sign Up button. */
 .info-button {
     /* We want to set width of container with button. */
-    width: 100px;
+    width: 120px;
 }
 
 button {
+    /* Color, border, and spacing. */
+    background-color: #3882F6;
+    border-color: #E5E7EB;
+    border-style: solid;
+    border-radius: 5px;
+    width: 100px;
+    padding: 10px;
+
     /* Make sure button is centered by setting side margins. */
     margin-left: auto;
     margin-right: auto;
 }
+
 footer {
     display: flex;  
 }
